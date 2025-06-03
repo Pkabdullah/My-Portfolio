@@ -7,10 +7,10 @@ import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collisi
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-20">
+    <div className="pt-20 pb-20">
       <div>
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+          className="h-screen -top-40 -left-10 md:-left-32 md:-top-20"
           fill="white"
         />
         <Spotlight
@@ -21,13 +21,13 @@ const Hero = () => {
       </div>
 
       <div
-        className="h-screen w-screen absolute top-0 left-0 flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center   ">
+        className="absolute top-0 left-0 flex items-center justify-center w-screen h-screen">
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none ">
           <BackgroundBeamsWithCollision />
         </div>
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="relative z-10 flex justify-center my-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           
           <TextGenerateEffect
@@ -35,8 +35,8 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi I&apos;m Abdullah, a <span className="text-purple">FullStack Developer</span> based in Pakistan.
+          <p className="mb-4 text-sm text-center md:tracking-wider md:text-lg lg:text-2xl">
+            Hi I&apos;m Muhammad Abdullah, a <span className="text-purple">FullStack Developer</span> based in Pakistan.
           </p>
           <a href="#projects">
             <MagicButton

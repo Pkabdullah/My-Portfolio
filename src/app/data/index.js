@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a E-commerce Clothing Website",
+    title: "Currently building a Learning Management System.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -104,7 +104,51 @@ export const projects = [
       "/stripe.png",
       "/tail.svg",
     ],
-    link: "https://style-haven-full-stack.vercel.app/",
+    link: "https://github.com/Pkabdullah/Style-Haven-E-comm",
+  },
+  {
+    id: 4,
+    title: "Nes Craft - E-Commerce Application",
+    des: "Step into the world of Furniture with Next Craft , your one-stop destination for the latest trends and timeless designs.",
+    img: "/ff1.png",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/js.png",
+      "/mongodb.png",
+      "/strapilogo.png",
+      "/stripe.png",
+      "/tail.svg",
+    ],
+    link: "https://github.com/Pkabdullah/Nest_Craft-FrontEnd",
+  },
+  {
+    id: 5,
+    title: "Tesla - E-Commerce Application",
+    des: "Transform your Tesla charger into a statement piece with our premium, customizable skins.",
+    img: "/tesla.png",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/js.png",
+      "/tail.svg",
+      "/redux.png"
+    ],
+    link: "https://tesla-inky.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Acupuncture - E-Commerce Application",
+    des: "Experience holistic healing through acupuncture and natural therapies tailored to restore your vitality and balanceb",
+    img: "/acu.png",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/js.png",
+      "/tail.svg",
+      "/redux.png"
+    ],
+    link: "https://acupunture.vercel.app/",
   },
 ];
 
@@ -190,40 +234,50 @@ export const skills = [
   },
   {
     id: 4,
+    name: "Redux",
+    image: "/redux.png",
+  },
+  {
+    id: 5,
     name: "MongoDb",
     image: "/mongodb.png",
   },
-  { id: 5, name: "Rest Api", image: "/rest-api-1.svg" },
+  { id: 6, name: "Rest Api", image: "/rest-api-1.svg" },
 
   {
-    id: 6,
+    id: 7,
     name: "Next auth",
     image: "/auth.png",
   },
   {
-    id: 7,
+    id: 8,
     name: "Strapi CMS",
     image: "/strapilogo.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "Stripe Payment",
     image: "/str.png",
   },
   ,
   {
-    id: 9,
+    id: 10,
     name: "TailWind CSS",
     image: "/tail.svg",
   },
   {
-    id: 10,
+    id: 11,
     name: " HTML",
     image: "/html-5.png",
   },
   {
-    id: 11,
+    id: 12,
     name: " CSS",
     image: "/css-3.png",
+  },
+  {
+    id: 12,
+    name: " Word Press",
+    image: "/wp1.png",
   },
 ];

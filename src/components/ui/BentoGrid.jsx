@@ -66,7 +66,7 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+        <div className="absolute w-full h-full">
           {image && (
             <Image
               src={image}
@@ -107,12 +107,12 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 dark:text-neutral-300">
             {description}
           </div>
-          <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200  text-lg lg:text-3xl max-w-96 z-10">
+          <div className="z-10 font-sans text-lg font-bold text-neutral-600 dark:text-neutral-200 lg:text-3xl max-w-96">
             {title}
           </div>
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className=" flex gap-1 lg:gap-5 w-fit absolute  -right-3  lg:-right-2">
+            <div className="absolute flex gap-1  lg:gap-5 w-fit -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
                 {leftLists.map((item) => (
                   <span
@@ -139,9 +139,9 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative ">
+            <div className="relative mt-5 ">
               {copied && (
-                <div className="absolute -bottom-5 right-0">
+                <div className="absolute right-0 -bottom-5">
                   <Lottie options={defaultOptions} height={200} width={400} />
                 </div>
               )}
@@ -156,7 +156,7 @@ export const BentoGridItem = ({
           {
             id===1 &&(<div>
                <a
-                href="/pro.pdf" 
+                href="/cv001.docx" 
                 download
               >
                 <MagicButton
