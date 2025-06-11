@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { BackgroundGradientAnimation } from "./background-gradient-animation";
+// import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { GlobeDemo } from "./GridGlobe";
 import { leftLists, rightLists } from "@/app/data";
 import { useState } from "react";
@@ -92,12 +92,12 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 &&
+{/*         {id === 6 &&
         <BackgroundGradientAnimation >
 
         </BackgroundGradientAnimation>
 
-        }
+        } */}
         <div
           className={cn(
             titleClassName,
